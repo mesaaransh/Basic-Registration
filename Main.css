@@ -1,0 +1,87 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+
+.headings{
+  width: 100%;
+  color: white;
+  margin-top: 50px;
+  font-size: 25px;
+  text-align: center;
+  font-family: cursive;
+}
+
+.inputcont{
+  padding-left: 480px;
+}
+
+#btn{
+  height: 50px;
+  width: 400px;
+  margin: 20px 0;
+  margin-left: 480px;
+
+  border-width: 0;
+  border-style: solid;
+
+  background-color: #ffaa00;
+  border-radius: 30px;
+
+  transition-duration: .15s;
+}
+
+#btn:hover{
+  height: 50px;
+  width: 400px;
+  margin: 20px 0;
+  margin-left: 480px;
+
+  background-color: #cc8800;
+  border-radius: 30px;
+}
+
+#btntext{
+  height: inherit;
+  width: inherit;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+  font-family: cursive;
+  padding-top: 9px;
+  cursor: pointer;
+}
+
+input, textarea, select{
+  height: 35px;
+  width: 380px;
+  margin: 15px 0;
+  font-family: cursive;
+  font-size: 15px;
+  font-weight: bold;
+
+  padding-left: 20px;
+  background-color: white;
+  border-style: solid;
+  border-radius: 20px;
+  border-width:1px;
+}
+
+input:placeholder-shown{
+  font-family: cursive;
+}
+
+.wrongin{
+  border-color: red;
+  font-weight: bold;
+  color: red;
+}
+
+.wrongprompt{
+  color: #ea0e23;
+  font-family: cursive;
+  margin-top: -5px;
+
+  transition-duration: .5s;
+}
